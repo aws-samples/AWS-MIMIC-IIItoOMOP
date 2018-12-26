@@ -149,7 +149,7 @@
     "EC2Istance": {
       "Type": "AWS::EC2::Instance",
       "Properties": {
-        "ImageId": "ami-f173cc91",
+        "ImageId": "ami-0080e4c5bc078760e",
         "InstanceType": "t2.micro",
         "IamInstanceProfile": { "Ref": "EC2InstanceProfile" },
         "NetworkInterfaces": [
